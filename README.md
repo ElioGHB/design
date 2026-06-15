@@ -129,3 +129,4 @@ npm run build
 ## 开源协议
 
 本项目基于 MIT License 开源，详见 [LICENSE](./LICENSE)。
+如果你在公开项目中使用本工具，欢迎注明来源
