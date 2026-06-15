@@ -125,3 +125,7 @@ npm run build
 ```
 
 然后将生成的 `dist/` 目录部署到静态站点服务即可。
+
+## 开源协议
+
+本项目基于 MIT License 开源，详见 [LICENSE](./LICENSE)。
