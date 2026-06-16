@@ -221,7 +221,6 @@ function renderEmptyState(): string {
             <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
           </div>
           <div class="card-content">
-            <h3>AI 工具内容封面</h3>
             <p>适合花瓣找中文封面结构，Dribbble / Behance 找科技视觉与插画气质。</p>
             <div class="card-tags">
               <span>科技感</span>
@@ -240,7 +239,6 @@ function renderEmptyState(): string {
             <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
           </div>
           <div class="card-content">
-            <h3>电商大促主视觉</h3>
             <p>适合花瓣找活动会场，Pinterest / Behance 找促销构图、色彩和转化氛围。</p>
             <div class="card-tags">
               <span>高转化</span>
@@ -259,7 +257,6 @@ function renderEmptyState(): string {
             <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
           </div>
           <div class="card-content">
-            <h3>SaaS 产品官网首屏</h3>
             <p>适合 Awwwards 找网页首屏，Behance 找产品叙事与高级界面表达。</p>
             <div class="card-tags">
               <span>极简主义</span>
@@ -278,7 +275,6 @@ function renderEmptyState(): string {
             <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           </div>
           <div class="card-content">
-            <h3>品牌发布会视觉</h3>
             <p>适合 Behance 找品牌系统，Pinterest / Unsplash 补充舞台光影与未来材质。</p>
             <div class="card-tags">
               <span>未来纪元</span>
