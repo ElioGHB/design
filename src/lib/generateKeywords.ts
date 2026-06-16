@@ -264,16 +264,26 @@ function createPlatformTerms(
 ): Record<Platform, string[]> {
   const platformLeadTerms: Record<Platform, string> = {
     huaban: phrases.zh[0] ?? "主视觉",
-    dribbble: phrases.zh[1] ?? phrases.zh[0] ?? "视觉设计",
-    behance: phrases.zh[2] ?? phrases.zh[0] ?? "创意设计",
-    pinterest: phrases.zh[3] ?? phrases.zh[0] ?? "设计灵感",
-    awwwards: isCommerceCampaign(analysis) ? "大促会场设计" : "网页设计",
-    fontsInUse: "海报排版",
-    unsplash: phrases.zh[0] ?? "设计背景"
+    dribbble: phrases.en[1] ?? phrases.en[0] ?? "visual design",
+    behance: phrases.en[2] ?? phrases.en[0] ?? "creative design",
+    pinterest: phrases.en[3] ?? phrases.en[0] ?? "design inspiration",
+    awwwards: isCommerceCampaign(analysis) ? "campaign landing page" : "web design",
+    fontsInUse: "poster typography",
+    unsplash: phrases.en[0] ?? "design background"
+  };
+
+  const platformFallbackTerms: Record<Platform, string> = {
+    huaban: platformSearchRules.huaban[0],
+    dribbble: "visual design inspiration",
+    behance: "creative design",
+    pinterest: "design inspiration",
+    awwwards: "website inspiration",
+    fontsInUse: "typography inspiration",
+    unsplash: "background texture"
   };
 
   return (Object.keys(platformSearchRules) as Platform[]).reduce<Record<Platform, string[]>>((acc, platform) => {
-    acc[platform] = [platformLeadTerms[platform] ?? platformSearchRules[platform][0]];
+    acc[platform] = [platformLeadTerms[platform] ?? platformFallbackTerms[platform]];
     return acc;
   }, {} as Record<Platform, string[]>);
 }
